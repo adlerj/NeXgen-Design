@@ -1,3 +1,2 @@
 # NeXgen-Design
-hello world
-test
+The Fonts are updated!
