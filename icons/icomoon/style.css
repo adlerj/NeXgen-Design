@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?l3ecbg');
-    src:    url('fonts/icomoon.eot?l3ecbg#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?l3ecbg') format('truetype'),
-        url('fonts/icomoon.woff?l3ecbg') format('woff'),
-        url('fonts/icomoon.svg?l3ecbg#icomoon') format('svg');
+    src:    url('fonts/icomoon.eot?kbf9sd');
+    src:    url('fonts/icomoon.eot?kbf9sd#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?kbf9sd') format('truetype'),
+        url('fonts/icomoon.woff?kbf9sd') format('woff'),
+        url('fonts/icomoon.svg?kbf9sd#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,12 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-radio-off:before {
+    content: "\e92a";
+}
+.icon-radio-on:before {
+    content: "\e92b";
+}
 .icon-palette:before {
     content: "\e929";
 }
@@ -183,9 +189,6 @@
 .icon-clipboard:before {
     content: "\63";
 }
-.icon-picture:before {
-    content: "\70";
-}
 .icon-help-circled:before {
     content: "\30";
 }
@@ -296,9 +299,6 @@
 }
 .icon-export:before {
     content: "\e631";
-}
-.icon-apps:before {
-    content: "\e632";
 }
 .icon-share-ios:before {
     content: "\e633";
